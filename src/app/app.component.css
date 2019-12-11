@@ -1,0 +1,64 @@
+@media (min-width: 768px){
+  #left {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    width: 25%;
+    overflow-y: scroll; 
+  }
+
+  #middle {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 25%;
+    width: 25%;
+    overflow-y: scroll; 
+  }
+
+   #right {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 50%;
+    width: 25%;
+    overflow-y: scroll; 
+  }
+
+ #far-right {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 75%;
+    width: 25%;
+    overflow-y: scroll; 
+  }
+
+  
+
+}
+
+
+#middle{
+  
+  text-align: center;
+  height:100%;
+}
+
+#right {
+  height:100%;
+
+  text-align: center;
+}
+
+h4{
+  padding: 10px 0; 
+}
+
+.tool-card{
+  border: 2px solid black;
+  padding: 10px 10px;
+  margin: 10px 0;
+}
+
